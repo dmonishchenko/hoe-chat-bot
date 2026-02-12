@@ -27,3 +27,5 @@ Thumbs.db
 # State files
 .state/
 state.json
+
+.github
