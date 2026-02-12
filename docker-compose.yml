@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  hoe-bot:
+    build: .
+    container_name: hoe-chat-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./state:/app/.state
